@@ -1,0 +1,32 @@
+.email-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #f8f8f8;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.email-summary:hover {
+  background: #f0f0f0;
+}
+
+.email-summary.active {
+  background: #e8f0ff;
+  border-bottom: 2px solid #0076CE;
+}
+
+.email-date {
+  color: #666;
+  font-size: 14px;
+}
+
+.email-subject {
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 20px;
+  flex: 1;
+}

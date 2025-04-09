@@ -1,0 +1,341 @@
+.lead-details {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+}
+
+.customer-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.customer-header h2 {
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 24px;
+}
+
+.customer-email {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.nurturing-title {
+  color: #003087;
+  font-size: 20px;
+  margin: 30px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.status-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 20px 0;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 4px;
+}
+
+.timeline-item {
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.email-item {
+  padding: 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.email-item:hover {
+  background: #f5f5f5;
+}
+
+.email-date {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.email-subject {
+  font-weight: bold;
+  color: #003087;
+}
+
+.email-full-content {
+  padding: 0;
+  background: #fff;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.email-header {
+  background: #0076CE;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.email-header img {
+  height: 30px;
+  filter: brightness(0) invert(1);
+}
+
+.email-header span {
+  color: white;
+  font-size: 14px;
+}
+
+.special-offer {
+  text-align: center;
+  color: #0076CE;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 20px 0 10px;
+  text-transform: uppercase;
+}
+
+.email-title {
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 18px;
+  color: #333;
+  padding: 0 20px;
+}
+
+.email-title a {
+  color: #0076CE;
+  text-decoration: none;
+}
+
+.content {
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.car-image {
+  text-align: center;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.car-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.car-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #f8f8f8;
+  margin: 20px 0;
+}
+
+.car-details-item {
+  text-align: center;
+}
+
+.car-details-label {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.car-details-value {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+.more-button {
+  background: #0076CE;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.peace-of-mind {
+  padding: 20px;
+}
+
+.peace-of-mind h3 {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.peace-of-mind h3 span {
+  color: #0076CE;
+  margin-left: 5px;
+}
+
+.peace-of-mind p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.peace-of-mind ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.peace-of-mind li {
+  font-size: 14px;
+  color: #333;
+  margin: 8px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.peace-of-mind li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #0076CE;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.cta-buttons button {
+  background: #0076CE;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.disclaimer-text {
+  padding: 20px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #666;
+  border-top: 1px solid #ddd;
+}
+
+.disclaimer-text img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.disclaimer-text p {
+  margin: 15px 0;
+  white-space: pre-line;
+}
+
+.email-trail-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.timeline {
+  position: relative;
+  margin: 40px 0;
+}
+
+.email-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.email-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.email-item.active {
+  background-color: #f0f4ff;
+  border-left: 4px solid #003087;
+}
+
+h1 {
+  color: #003087;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.email-list {
+  margin: 20px 0;
+}
+
+.email-list-item {
+  margin-bottom: 20px;
+}
+
+.email-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #f8f8f8;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.email-summary:hover {
+  background: #f0f0f0;
+}
+
+.email-summary.active {
+  background: #e8f0ff;
+  border-bottom: 2px solid #0076CE;
+}
+
+.email-date {
+  color: #666;
+  font-size: 14px;
+}
+
+.email-subject {
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 20px;
+  flex: 1;
+}
+
+.nurturing-history {
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 20px 0;
+  text-align: center;
+}

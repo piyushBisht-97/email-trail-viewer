@@ -1,0 +1,40 @@
+.car-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.car-details-item {
+  flex: 1;
+  min-width: 200px;
+}
+
+.car-details-label {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.car-details-value {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.more-button {
+  background: #0076CE;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.more-button:hover {
+  background: #005ba1;
+}

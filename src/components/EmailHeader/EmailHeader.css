@@ -1,0 +1,17 @@
+.email-header {
+  margin-bottom: 20px;
+}
+
+.dealer-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.dealer-logo {
+  height: 40px;
+  width: auto;
+}

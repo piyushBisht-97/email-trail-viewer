@@ -1,0 +1,22 @@
+.customer-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.customer-header h2 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.customer-header p {
+  color: #666;
+  margin: 0;
+}
+
+.nurturing-history {
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 20px 0;
+  text-align: center;
+}
