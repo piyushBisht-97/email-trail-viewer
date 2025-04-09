@@ -2,7 +2,6 @@ import crvLogo from '../assets/images/2022-crv.png';
 import pilotLogo from '../assets/images/2021-pilot.png';
 import accordLogo from '../assets/images/2024-accord.png';
 
-
 export const leadData = {
   customerName: "Jill Jones",
   customerEmail: "jill.jones@email.com",
